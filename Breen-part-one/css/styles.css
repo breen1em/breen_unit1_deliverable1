@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     margin: 0px;
+    overflow-x: hidden;
 }
 h1 {
     color: #20a8b4;
@@ -29,7 +30,7 @@ span {
 }
 .nav-links {
     padding: 0px;
-    margin: 6px 12px;
+    margin: 6px 24px 6px 12px;
 }
 li {
     background-color: none;
@@ -60,6 +61,7 @@ a:hover {
 }
 .learn-link {
     padding: 0px 12px 12px 12px;
+    margin: 0px 12px 0px 0px;
 }
 .learn {
     background-color: #20a8b4;
@@ -87,6 +89,9 @@ p {
 }
 img {
     display:none;
+}
+div {
+    margin: 0px 12px 0px 0px;
 }
 @media screen and (min-width:768px) {
     li {
